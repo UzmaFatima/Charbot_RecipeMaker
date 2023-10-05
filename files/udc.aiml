@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <!-- Greetings -->
+    <category>
+        <pattern>*</pattern>
+        <template>Hello</template>
+    </category>
+
+    <category>
+        <pattern>Hi</pattern>
+        <template>
+            Greetings!<delay>3</delay>
+            We are going to find a recipe based on your interests.<delay>4</delay>
+            I will list some categories, and then you tell me the one that interests you the most.<delay>4</delay>
+            <reply>
+                <text>Italian</text>
+                <postback>Italian</postback>
+            </reply>
+            <reply>
+                <text>Mexican</text>
+                <postback>Mexican</postback>
+            </reply>
+            <reply>
+                <text>Indian</text>
+                <postback>Indian</postback>
+            </reply>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Hello</pattern>
+        <template>
+            Well, hello there.<delay>3</delay>
+            Let's find a recipe based on your interests.<delay>4</delay>
+            I will list some categories, and then you tell me the one that interests you the most.<delay>4</delay>
+            <reply>
+                <text>Italian</text>
+                <postback>Italian</postback>
+            </reply>
+            <reply>
+                <text>Mexican</text>
+                <postback>Mexican</postback>
+            </reply>
+            <reply>
+                <text>Indian</text>
+                <postback>Indian</postback>
+            </reply>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Hey</pattern>
+        <template>
+            Well, hello there.<delay>3</delay>
+            Let's find a recipe based on your interests.<delay>4</delay>
+            I will list some categories, and then you tell me the one that interests you the most.<delay>4</delay>
+            <reply>
+                <text>Italian</text>
+                <postback>Italian</postback>
+            </reply>
+            <reply>
+                <text>Mexican</text>
+                <postback>Mexican</postback>
+            </reply>
+            <reply>
+                <text>Indian</text>
+                <postback>Indian</postback>
+            </reply>
+        </template>
+    </category>
+
+    <!-- Recipe Categories -->
+    <category>
+        <pattern>Italian</pattern>
+        <template>
+            Great choice! Italian cuisine is delicious.<delay>4</delay>
+            Now, would you like a recipe for pasta or pizza?<delay>4</delay>
+            <reply>
+                <text>Pasta</text>
+                <postback>Pasta</postback>
+            </reply>
+            <reply>
+                <text>Pizza</text>
+                <postback>Pizza</postback>
+            </reply>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Mexican</pattern>
+        <template>
+            Excellent! Mexican cuisine is flavorful.<delay>4</delay>
+            Would you like a recipe for tacos or enchiladas?<delay>4</delay>
+            <reply>
+                <text>Tacos</text>
+                <postback>Tacos</postback>
+            </reply>
+            <reply>
+                <text>Enchiladas</text>
+                <postback>Enchiladas</postback>
+            </reply>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Indian</pattern>
+        <template>
+            Wonderful choice! Indian cuisine is diverse.<delay>4</delay>
+            Would you like a recipe for curry or biryani?<delay>4</delay>
+            <reply>
+                <text>Curry</text>
+                <postback>Curry</postback>
+            </reply>
+            <reply>
+                <text>Biryani</text>
+                <postback>Biryani</postback>
+            </reply>
+        </template>
+    </category>
+
+    <!-- Italian Recipes -->
+    <category>
+        <pattern>Pasta</pattern>
+        <template>
+            Here's a delicious Italian pasta recipe:
+            8 oz spaghetti
+2 cloves garlic
+2 tbsp olive oil
+1/4 cup grated Parmesan
+Fresh basil leaves
+Cook spaghetti, sauté garlic in olive oil, toss with cooked pasta, top with Parmesan and basil.
+        </template>
+    </category>
+
+    <category>
+        <pattern>Pizza</pattern>
+        <template>
+            Enjoy making homemade pizza with this recipe: Pizza dough
+Tomato sauce
+Mozzarella cheese
+Toppings of your choice
+Roll out dough, add sauce, cheese, and toppings. Bake at 475°F (245°C) for 12-15 min.
+        </template>
+    </category>
+
+    <!-- Mexican Recipes -->
+    <category>
+        <pattern>Tacos</pattern>
+        <template>
+            Spice things up with these tasty taco instructions:Ground beef
+Taco seasoning
+Taco shells
+Lettuce, cheese, salsa
+Brown beef, add seasoning, fill taco shells, and top with lettuce, cheese, and salsa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>Enchiladas</pattern>
+        <template>
+            Try this mouthwatering enchiladas recipe:Shredded chicken
+Enchilada sauce
+Tortillas
+Cheese, onions
+Fill tortillas with chicken, roll, and place in a baking dish. Top with sauce, cheese, and onions. Bake at 350°F (175°C) for 20 min.
+        </template>
+    </category>
+
+    <!-- Indian Recipes -->
+    <category>
+        <pattern>Curry</pattern>
+        <template>
+            Savor the flavors of India with this curry recipe:Chicken or vegetables
+Curry paste
+Coconut milk
+Serve over rice
+Cook chicken/veggies, add curry paste and coconut milk. Simmer and serve over rice.
+        </template>
+    </category>
+
+    <category>
+        <pattern>Biryani</pattern>
+        <template>
+            Prepare a delicious biryani with this Indian recipe: Basmati rice
+Chicken or veggies
+Biryani spices
+Fried onions, mint
+Layer cooked rice and chicken/veggies with spices. Top with fried onions and mint.
+        </template>
+    </category>
+
+</aiml>
